@@ -458,9 +458,9 @@ pre {
   @media (min-width: 768px) {
     .container {
       max-width: 720px; } }
-  @media (min-width: 992px) {
+  /* @media (min-width: 992px) {
     .container {
-      max-width: 960px; } }
+      max-width: 960px; } } */
   @media (min-width: 1200px) {
     .container {
       max-width: 1140px; } }
@@ -8819,7 +8819,6 @@ h1, h2, h3, h4, h5,
   .resume-wrap h2 {
     font-size: 26px; }
   .resume-wrap .position {
-    font-size: 12px;
     font-weight: 600;
     letter-spacing: 3px;
     text-transform: uppercase; }
@@ -9091,7 +9090,7 @@ textarea.form-control {
 .ftco-footer {
   font-size: 16px;
   background: #000000;
-  padding: 5em 0;
+  padding: 5em 0 2em;
   z-index: 0; }
   .ftco-footer .ftco-footer-logo {
     text-transform: uppercase;
